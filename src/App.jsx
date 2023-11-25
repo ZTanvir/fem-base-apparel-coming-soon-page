@@ -1,5 +1,10 @@
+import Logo from "./Component/Logo";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Logo />
+    </>
+  );
 }
 
 export default App;
