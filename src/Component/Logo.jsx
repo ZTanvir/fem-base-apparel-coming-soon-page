@@ -1,6 +1,5 @@
 import LogoImg from "../assets/images/logo.svg";
 const Logo = () => {
-  console.log(LogoImg);
   return (
     <img
       className="logo-img"
