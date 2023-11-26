@@ -1,6 +1,7 @@
 import Logo from "./Component/Logo";
 import Title from "./Component/Title";
 import Subtitle from "./Component/Subtitle";
+import GetNotifiedForm from "./Component/GetNotifiedForm";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Logo />
       <Title />
       <Subtitle />
+      <GetNotifiedForm />
     </>
   );
 }
