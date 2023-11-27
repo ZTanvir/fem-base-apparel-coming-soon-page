@@ -1,0 +1,15 @@
+.title{
+    font-size: 4rem;
+    color: rgb(56, 56, 56);
+}
+
+.title>span{
+    display:block;
+    letter-spacing: 10px;
+}
+
+.highlightTitle{
+    color: #D1A6A7;
+    font-weight: 100;
+    margin-top: 5rem;
+}
