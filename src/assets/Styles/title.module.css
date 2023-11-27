@@ -6,6 +6,7 @@
 .title>span{
     display:block;
     letter-spacing: 10px;
+    line-height: 1;
 }
 
 .highlightTitle{
