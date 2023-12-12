@@ -1,20 +1,27 @@
 .formStyle{
     display: flex;
-    border-radius: 1rem;
+    border-radius: 2rem;
     width: 70%;
     background-color: transparent;
+    border: 1px solid #D9CACD;
 }
+
 .formStyle > input{
     width: 100%;
     padding: .5rem 1rem;
     font-size: 1.2rem;
+    border: none;
+    background: transparent;
+    outline: none;
 }
+
 .formStyle > button[type="submit"]{
-    width: 10rem;
+    width: 8rem;
     border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     border: none;
     background: rgb(247,177,177);
     background: linear-gradient(0deg, rgba(247,177,177,1) , rgba(241,147,146,1) );
