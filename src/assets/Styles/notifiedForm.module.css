@@ -6,6 +6,9 @@
     border: 1px solid #D9CACD;
     position: relative;
 }
+.formError{
+    border: 1px solid red;
+}
 
 .formStyle > input{
     width: 100%;
@@ -25,6 +28,14 @@
     top: 46px;
     left: 16px; 
     color: red;
+}
+.formStyle > .errorIcon {
+    padding-right: 5px;
+    align-self: center;
+    visibility: hidden;
+}
+.formStyle > .showError{
+    visibility: visible;
 }
 
 .formStyle > button[type="submit"]{

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import buttonImg from "../assets/images/icon-arrow.svg";
+import errorIcon from "../assets/images/icon-error.svg";
 import notifiedFormStyle from "../assets/Styles/notifiedForm.module.css";
 
 const GetNotifiedForm = () => {
@@ -23,7 +24,14 @@ const GetNotifiedForm = () => {
   };
   return (
     <div>
-      <form className={notifiedFormStyle.formStyle} onSubmit={handleSubmit}>
+      <form
+        className={
+          errorMsg
+            ? `${notifiedFormStyle.formStyle} ${notifiedFormStyle.formError}`
+            : notifiedFormStyle.formStyle
+        }
+        onSubmit={handleSubmit}
+      >
         <input
           value={email}
           onChange={(e) => {
@@ -34,6 +42,15 @@ const GetNotifiedForm = () => {
         />
         <span className={notifiedFormStyle.errorMsg}>
           {isError ? errorMsg : ""}
+        </span>
+        <span
+          className={
+            errorMsg
+              ? `${notifiedFormStyle.errorIcon}  ${notifiedFormStyle.showError}`
+              : notifiedFormStyle.errorIcon
+          }
+        >
+          <img src={errorIcon} alt="red circle with exclamation point inside" />
         </span>
 
         <button type="submit">
