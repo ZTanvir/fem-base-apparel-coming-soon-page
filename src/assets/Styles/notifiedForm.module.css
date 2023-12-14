@@ -4,6 +4,7 @@
     width: 70%;
     background-color: transparent;
     border: 1px solid #D9CACD;
+    position: relative;
 }
 
 .formStyle > input{
@@ -13,6 +14,17 @@
     border: none;
     background: transparent;
     outline: none;
+}
+
+.formStyle > input::placeholder{
+    color:rgb(247,177,177);
+}
+
+.formStyle > .errorMsg {
+    position: absolute;
+    top: 46px;
+    left: 16px; 
+    color: red;
 }
 
 .formStyle > button[type="submit"]{
