@@ -7,12 +7,12 @@
     position: relative;
 }
 .formError{
-    border: 1px solid red;
+    border: 1.5px solid #E2706F;
 }
 
 .formStyle > input{
     width: 100%;
-    padding: .5rem 1rem;
+    padding: .5rem 1.5rem;
     font-size: 1.2rem;
     border: none;
     background: transparent;
@@ -26,8 +26,8 @@
 .formStyle > .errorMsg {
     position: absolute;
     top: 46px;
-    left: 16px; 
-    color: red;
+    left: 1.5rem; 
+    color: #E2706F;
 }
 .formStyle > .errorIcon {
     padding-right: 5px;
@@ -40,7 +40,7 @@
 
 .formStyle > button[type="submit"]{
     width: 8rem;
-    border-radius: 16px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
