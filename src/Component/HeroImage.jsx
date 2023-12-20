@@ -1,6 +1,13 @@
 import heroImageDesktop from "../assets/images/hero-desktop.jpg";
-import heroImageMobile from "../assets/images/hero-mobile.jpg";
+import heroImageStyle from "../assets/Styles/heroImage.module.css";
+
 const HeroImage = () => {
-  return <img src={heroImageDesktop} alt="A girl wearing orange shirt" />;
+  return (
+    <img
+      className={heroImageStyle.heroImage}
+      src={heroImageDesktop}
+      alt="A girl wearing orange shirt"
+    />
+  );
 };
 export default HeroImage;
