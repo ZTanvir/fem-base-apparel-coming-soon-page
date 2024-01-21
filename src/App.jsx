@@ -20,7 +20,7 @@ function App() {
         <Subtitle />
         <GetNotifiedForm />
       </section>
-      <section className="heroImage">
+      <section className="heroImageDesktop">
         <HeroImage device={heroImageDesktop} />
       </section>
     </div>

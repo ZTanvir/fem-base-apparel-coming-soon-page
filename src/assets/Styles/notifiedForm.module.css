@@ -1,51 +1,60 @@
-.formStyle{
-    display: flex;
-    border-radius: 2rem;
-    width: 70%;
-    background-color: transparent;
-    border: 1px solid #D9CACD;
-    position: relative;
+.formStyle {
+  display: flex;
+  border-radius: 2rem;
+  width: 70%;
+  background-color: transparent;
+  border: 1px solid #d9cacd;
+  position: relative;
 }
-.formError{
-    border: 1.5px solid #E2706F;
-}
-
-.formStyle > input{
-    width: 100%;
-    padding: .5rem 1.5rem;
-    font-size: 1.2rem;
-    border: none;
-    background: transparent;
-    outline: none;
+.formError {
+  border: 1.5px solid #e2706f;
 }
 
-.formStyle > input::placeholder{
-    color:rgb(247,177,177);
+.formStyle > input {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.formStyle > input::placeholder {
+  color: rgb(247, 177, 177);
 }
 
 .formStyle > .errorMsg {
-    position: absolute;
-    top: 46px;
-    left: 1.5rem; 
-    color: #E2706F;
+  position: absolute;
+  top: 46px;
+  left: 1.5rem;
+  color: #e2706f;
 }
 .formStyle > .errorIcon {
-    padding-right: 5px;
-    align-self: center;
-    visibility: hidden;
+  padding-right: 5px;
+  align-self: center;
+  visibility: hidden;
 }
-.formStyle > .showError{
-    visibility: visible;
+.formStyle > .showError {
+  visibility: visible;
 }
 
-.formStyle > button[type="submit"]{
-    width: 8rem;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-    background: rgb(247,177,177);
-    background: linear-gradient(0deg, rgba(247,177,177,1) , rgba(241,147,146,1) );
+.formStyle > button[type="submit"] {
+  width: 8rem;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: rgb(247, 177, 177);
+  background: linear-gradient(
+    0deg,
+    rgba(247, 177, 177, 1),
+    rgba(241, 147, 146, 1)
+  );
+}
+@media only screen and (max-width: 700px) {
+  .formStyle {
+    width: 100%;
+  }
 }
