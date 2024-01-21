@@ -1,11 +1,10 @@
-import heroImageDesktop from "../assets/images/hero-desktop.jpg";
 import heroImageStyle from "../assets/Styles/heroImage.module.css";
 
-const HeroImage = () => {
+const HeroImage = ({ device }) => {
   return (
     <img
       className={heroImageStyle.heroImage}
-      src={heroImageDesktop}
+      src={device}
       alt="A girl wearing orange shirt"
     />
   );
