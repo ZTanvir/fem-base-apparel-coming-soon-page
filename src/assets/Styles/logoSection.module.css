@@ -1,3 +1,6 @@
-.logoSection{
-    padding: 2rem;
+
+@media only screen and (max-width: 700px) {
+    .logoSection{
+        padding: 2rem;
+    }
 }

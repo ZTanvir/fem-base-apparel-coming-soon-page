@@ -1,6 +1,7 @@
 .title {
   font-size: 4rem;
   color: rgb(56, 56, 56);
+  margin-top: 5rem;
 }
 
 .title > span {
@@ -12,10 +13,11 @@
 .highlightTitle {
   color: #d1a6a7;
   font-weight: 100;
-  margin-top: 5rem;
 }
 @media only screen and (max-width: 700px) {
   .title {
     text-align: center;
+    font-size: 2rem;
+    margin-top:4rem;
   }
 }
