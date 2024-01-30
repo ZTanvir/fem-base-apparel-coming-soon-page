@@ -14,7 +14,7 @@
   color: #d1a6a7;
   font-weight: 100;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 375px) {
   .title {
     text-align: center;
     font-size: 2rem;
