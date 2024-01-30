@@ -61,6 +61,9 @@
   .formStyle > input{
     font-size: 1rem;
   }
+  .formStyle > button[type="submit"]{
+    width: 6rem;
+  }
 }
 
 @media only screen and (min-width: 426px) and (max-width:768px){
