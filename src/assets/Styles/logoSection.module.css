@@ -1,8 +1,0 @@
-@media only screen and (max-width: 375px) {
-    .logoSection{
-        padding: 2rem;
-    }
-    .logoSection > img{
-        width:40% ;
-    }
-}
